@@ -24,7 +24,7 @@ function solve() {
       
     // validations
     count = +count;
-    if (typeof(count) != 'number' || count < 1 || isNaN(count)) {
+    if (typeof(count) != 'number' || count < 1 || isNaN(count)) { // validation for a number or string number
       throw new Error('Invalid count');
     } 
     
